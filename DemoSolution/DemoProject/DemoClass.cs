@@ -8,5 +8,10 @@ namespace DemoProject
 {
     public class DemoClass
     {
+        public int AddTwoNumber(int firstNumber, int secondNumber)
+        { 
+            int result = firstNumber + secondNumber;
+            return result;
+        }
     }
 }
